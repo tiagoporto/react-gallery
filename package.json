@@ -1,0 +1,23 @@
+{
+  "name": "gallery",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "react-slick": "^0.23.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "sass": "sass --watch src/styles/sass:src/styles/css",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jeet": "^7.2.0",
+    "react-responsive-modal": "^3.0.3",
+    "sass": "^1.8.0"
+  }
+}

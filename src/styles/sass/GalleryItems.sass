@@ -9,6 +9,12 @@
   padding: 0
   margin: 0
   cursor: pointer
+  line-height: 0
+
+  &:hover
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6), 0 0 20px 0 rgba(0, 0, 0, 0.6)
+    z-index: 1
+    position: relative
 
   @include column(1/5, $cycle: 5, $gutter: 0)
   transition: width 200ms ease

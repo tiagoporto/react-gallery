@@ -20,7 +20,7 @@ export class GalleryItems extends Component {
 
     if(this.props.images) {
       const items = []
-      this.props.images.map((item, position) => {
+      this.props.images.forEach((item, position) => {
         if (position < 50) {
           items.push(
             <button className="items" key={item.id} onClick={this.onOpenModal}>

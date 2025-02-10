@@ -21,7 +21,6 @@
   "devDependencies": {
     "@tiagoporto/dependabot-config": "^1.5.0",
     "@tiagoporto/editor-config": "^1.4.0",
-    "gh-pages": "^1.2.0",
     "jeet": "^7.2.0",
     "react-responsive-carousel": "3.2.23",
     "react-responsive-modal": "^6.4.2"

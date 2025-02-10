@@ -13,9 +13,9 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1",
     "react-slick": "^0.30.3"
   },
   "devDependencies": {
@@ -25,5 +25,17 @@
     "jeet": "^7.2.0",
     "react-responsive-carousel": "3.2.23",
     "react-responsive-modal": "^6.4.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
